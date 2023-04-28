@@ -1,3 +1,59 @@
-.heading{
-    color: blue !important;
+#navjot{
+
 }
+.Form_Heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: blue;
+}
+/* .Form_Heading > h1{
+    color: red;
+} */
+.Form_description{
+        flex-direction: column;
+        display: flex;
+        gap: 10px;
+}
+.Form_description >div{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    gap: 10px;
+}
+.Form_description >div >label{
+    font-size: 25px;
+}
+.Form_description > div >input{
+    outline: none;
+    border: 2px solid rgba(204, 82, 82, 0.755);
+    border-radius: 5px;
+    /* padding: 7px; */
+}
+
+.username_label{
+
+}
+.password_label{
+
+}
+.password_input{
+
+}
+.Cpassword_label{
+
+}
+.course{
+
+}
+.courseOption{
+
+}
+.submitBtn{
+
+}
+
+/* 
+dot is use to target class Name
+# is use to target Id Name
+*/
